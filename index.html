@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Clase2</title>
+</head>
+
+<body>
+    <header>
+        <h1>Titulo de mi pagina</h1>
+        <nav>
+            <ul>
+                <li><a href="nosotros.html">Sobre nosotros</a></li>
+                <li><a href="contacto.html">Contactenos</a></li>
+                <li><a href="ayuda.html">Ayuda</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <table>
+                <tr>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miercoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+                <tr>
+                    <td>Gym</td>
+                    <td>Facu</td>
+                    <td>--</td>
+                    <td>Trabajar</td>
+                    <td>Salir</td>
+                </tr>
+                <tr>
+                    <td>Tarea</td>
+                    <td>Trabajar</td>
+                    <td>Gym</td>
+                    <td>Gym</td>
+                    <td>Estudiar</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2>Formularios</h2>
+            <form method="post">
+                <div>
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" id="nombre" placeholder="Ingresa tu nombre">
+                </div>
+                <div>
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido" placeholder="Ingresa tu apellido">
+                </div>
+                <div>
+                    <label for="correo">Correo electronico</label>
+                    <input type="email" id="email" placeholder="Tu correo electronico">
+                </div>
+                <div>
+                    <label for="Password">Password</label>
+                    <input type="password" id="password" placeholder="Password">
+                </div>
+                <div>
+                    <label for="dni">Tu dni</label>
+                    <input type="number" id="dni" placeholder="DNI">
+                </div>
+                <div>
+                    <label for="telefono">Telefono</label>
+                    <input type="number" id="telefono" placeholder="Telefonoi">
+                </div>
+                <div>
+                    <p>A que se dedica?</p>
+                    <label for="Empleado">Empleado</label>
+                    <input type="radio" name="profesion" id="empleado">
+                    <label for="Estudiante">Estudiante</label>
+                    <input type="radio" name="profesion" id="estudiante">
+                    <label for="Autonomo">Autonomo</label>
+                    <input type="radio" name="profesion" id="Autonomo">
+                    <label for="jubilado">Jubilado</label>
+                    <input type="radio" name="profesion" id="jubilado">
+                </div>
+                <div>
+                    <input type="checkbox" id="terminos">
+                    <label for="terminos">Acepta terminos y condiciones?</label>
+                </div>
+                <div>
+                    <select name="edad" id="edad">
+                        <option>Seleccione rango de edad</option>
+                        <option value="1822">18 a 22</option>
+                        <option value="2340">23 a 40</option>
+                        <option value="4185">41 a 85</option>
+                        <option value="86120">86 a 120</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="fechaNacimiento">Fecha de nacimiento</label>
+                    <input type="datetime-local" name="" id="fechaNacimiento">
+                </div>
+
+                <div>
+                    <label for="color">Color</label>
+                    <input type="color" name="color" id="color">
+                </div>
+
+                <div>
+                    <textarea name="descripcion" id="descripcion" cols="30"
+                        rows="10">Escribe una descripcion</textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Enviar formulario">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li>Sobre nosotos</li>
+            <li>Contacto</li>
+            <li>Ayuda</li>
+        </ul>
+    </footer>
+</body>
+
+</html>
